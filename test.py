@@ -45,10 +45,11 @@ with torch.no_grad():
 pred_image = torch.clip(pred_image, 0, 255)
 
 joint_image = torch.cat([gt_image.type(torch.uint8), pred_image.type(torch.uint8)], dim=2)
+
 plt.imshow(joint_image.permute(1, 2, 0))
 plt.axis('off')
-
-
+plt.show()
+plt.close()
 
 channels, height, width = pred_image.shape
 
