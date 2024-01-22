@@ -9,8 +9,8 @@ The data that can be found in image data folder `bird.jpg`, we resize the image 
 
 `data_reader.py`: A data loader that retrieves x & y coordinates and rgb values of each pixel.
 
-`model.py`: A four layers  of fully connected layer which output the rgb values.
+`model.py`: A network of fully connected layer (FFN) which output the rgb values.
 
 `train.ipynb`: putting all togather and train the model, also evaluate the model by psnr.
 
-`train_pose_encode.ipynb`: Same as `train.ipynb` but adding the positional encoding before training.
+`train_pose_encode.ipynb`: Same as `train.ipynb` but train the network with gaussian fourier feature mapping.
