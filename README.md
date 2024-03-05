@@ -18,6 +18,28 @@ For the data that can be found in the image data folder `bird.jpg`, we resized t
 `train_Sine.ipynb`: Same as `train.ipynb` but train the network by using Sine activation function.
 
 ## Performance
+
+The figures below show the visualization of image restoration of three different approaches.
+| ![](./figures/1.png) | 
+|:--:| 
+| *Normal Feed-foward Network* |
+
+
+| ![](./figures/2.png) | 
+|:--:| 
+| *FFN with Gaussian Fourier feature mapping* |
+
+
+| ![](./figures/3.png) | 
+|:--:| 
+| *FFN with Sine activation function* |
+
+
+| ![](./figures/4.png) | 
+|:--:| 
+| *Image Outpainting* |
+
+We can observe from the figures that FNN with Gaussian Fourier feature mapping seems to outperform the other approaches. We also present the quantitative results are summarized below. The PSNR of three methods.
 | Method       | PSNR (dB) |
 | :---        |    :----:       | 
 | Normal FCN  | 21.928  |
