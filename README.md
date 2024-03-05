@@ -7,12 +7,19 @@ The data that can be found in image data folder `bird.jpg`, we resize the image 
 ## Code Structure
 `pre_process.py`: Resize the image to 150 * 150 pixels.
 
-`data_reader.py`: A data loader that retrieves x & y coordinates and rgb values of each pixel.
+`data_reader.py`: A data loader that retrieves x & y coordinates and RGB values of each pixel.
 
-`model.py`: A network of fully connected layer (FFN) which output the rgb values.
+`model.py`: A network of fully connected layers (FFN) that output the RGB values.
 
-`train.ipynb`: putting all togather and train the model, also evaluate the model by PSNR.
+`train.ipynb`: putting all together and train the model, also evaluating the model by PSNR.
 
-`train_mapping.ipynb`: Same as `train.ipynb` but train the network with gaussian fourier feature mapping.
+`train_mapping.ipynb`: Same as `train.ipynb` but train the network with Gaussian Fourier feature mapping.
 
-`train_Sine.ipynb`: Same as `train.ipynb` but train the network by using sine activation function.
+`train_Sine.ipynb`: Same as `train.ipynb` but train the network by using Sine activation function.
+
+## Performance
+| Method       | PSNR (dB) |
+| :---        |    :----:       | 
+| Normal FCN  | 21.928  |
+| Position Mapping| 32.796 |
+| Sine Activation| |
