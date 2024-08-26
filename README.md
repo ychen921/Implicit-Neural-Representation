@@ -44,8 +44,8 @@ We can observe from the figures that FNN with Gaussian Fourier feature mapping s
 | :---        |    :----:       | 
 | Normal FCN  | 21.928  |
 | Position Mapping| 32.796 |
-| Sine Activation| |
+| Sine Activation| 25.556 |
 
 ## References
-1. Tancik, Matthew, et al. "Fourier features let networks learn high frequency functions in low dimensional domains." Advances in Neural Information Processing Systems 33 (2020): 7537-7547.
+1. Tancik, Matthew, et al. "Fourier features let networks learn high-frequency functions in low dimensional domains." Advances in Neural Information Processing Systems 33 (2020): 7537-7547.
 2. Sitzmann, Vincent, et al. "Implicit neural representations with periodic activation functions." Advances in neural information processing systems 33 (2020): 7462-7473.
